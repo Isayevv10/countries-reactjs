@@ -14,7 +14,6 @@ function App() {
   const [currentPage, setCurrentPage] = useState(1);
   const [postPerPage, setPostPerPage] = useState(50);
   const [theme, setTheme] = useState("light");
-  console.log(theme);
 
   const fecthData = async () => {
     const res = await axios.get("https://restcountries.com/v3.1/all");

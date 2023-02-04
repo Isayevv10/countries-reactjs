@@ -36,7 +36,7 @@ function App() {
       <Navbar theme={theme} setTheme={setTheme} />
       <Routes>
         <Route
-          path='/'
+          path='/countries-reactjs'
           element={
             <Render
               users={users}
@@ -47,7 +47,7 @@ function App() {
           }
         >
           <Route
-            path='/'
+            path='/countries-reactjs'
             element={
               <Pagination
                 setCurrentPage={setCurrentPage}

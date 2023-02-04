@@ -10,7 +10,6 @@ import Pagination from "./components/Pagination";
 
 function App() {
   const [users, setUsers] = useState([]);
-
   const [currentPage, setCurrentPage] = useState(1);
   const [postPerPage, setPostPerPage] = useState(50);
   const [theme, setTheme] = useState("light");
